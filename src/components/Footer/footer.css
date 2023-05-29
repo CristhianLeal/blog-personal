@@ -1,0 +1,9 @@
+.links{
+  text-decoration: none;
+}
+.links:hover{
+  color: rgb(177, 177, 177)!important;
+}
+.finalText{
+  font-size: x-small;
+}
