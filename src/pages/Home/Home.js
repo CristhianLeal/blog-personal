@@ -17,15 +17,30 @@ const Body = () => {
           <p className='mb-0 px-3 tv'> Hi everybody, my name is Cristhian Leal and this is my dear blog, in this site i will write a lot of things that i hope that you enjoy. Its easy to think that i'm writing with google traslate, but now it's not the reality. In this blog i will try to show you what i'm learn in my freetime about programming. </p>
         </div>
         <div className='d-flex flex-row justify-content-start gap-2'>
-          <a className="btn btn-dark links" href="/">My Pages</a>
+          <a className="btn btn-dark links" href="/">
+            <Link to='/mypages'
+              className="nav-link active text-white" 
+              aria-current="page"
+              >
+              My Pages
+            </Link>
+          </a>
           <a className="btn btn-dark links" href="/">
             <Link to='/about'
               className="nav-link active text-white" 
               aria-current="page"
               >
               About Me
-            </Link></a>
-          <a className="btn btn-dark links" href="/">Contact me</a>
+            </Link>
+          </a>
+          <a className="btn btn-dark links" href="/">
+            <Link to='/contact'
+              className="nav-link active text-white" 
+              aria-current="page"
+            >
+              Contact me
+            </Link>
+          </a>
         </div>
 
         <img src='https://mattfarley.ca/img/hero-devices.svg' alt='PerfilImage' className='mainimg pt-3'/>

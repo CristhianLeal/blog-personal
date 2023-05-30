@@ -2,9 +2,20 @@
   border-radius: 15px;
 }
 
-.test:hover{
-  color: black !important;
-
+.dropdown:hover>.dropdown-menu {
+  display: block;
 }
 
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
 
+.sublink:hover{
+  color: rgb(255, 255, 255) !important;
+}
+.lista{
+  background-color: rgb(33,37,41);
+}
+.list:hover{
+  background-color: rgb(87, 87, 87);
+}

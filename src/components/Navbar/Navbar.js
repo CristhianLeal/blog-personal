@@ -42,13 +42,45 @@ const Navbar = () => {
                   </Link>
                 </a>
                 <ul className="dropdown-menu bg-dark">
-                  <li><a className="dropdown-item text-white linksDrop test" href="/">FullStack</a></li>
-                  <li><a className="dropdown-item text-white linksDrop test" href="/">Ingeniero Electrónico</a></li>
-                  <li><a className="dropdown-item text-white linksDrop test" href="/">Empresa de servicios</a></li>
+                  <li>
+                    <a className="dropdown-item text-white list" href="/">
+                      <Link to='/mypages'
+                        className="text-white text-decoration-none sublink" 
+                        aria-current="page"
+                        >
+                        Menú Arabe
+                      </Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item text-white list" href="/">
+                      <Link to='/mypages'
+                        className="text-white text-decoration-none sublink" 
+                        aria-current="page"
+                        >
+                        Rc-Fakestore
+                      </Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item text-white list" href="/">
+                      <Link to='/mypages'
+                        className="text-white text-decoration-none sublink" 
+                        aria-current="page"
+                        >
+                        Challenges
+                      </Link>
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white links" href="/">Contact</a>
+                  <Link to='/contact'
+                  className="nav-link active text-white links" 
+                  aria-current="page"
+                  >
+                  Contact Me
+                  </Link>
               </li>
             </ul>
           </div>
