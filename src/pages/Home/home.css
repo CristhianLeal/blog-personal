@@ -2,3 +2,36 @@
   width: 80%;
   height: auto;
 }
+
+
+.box{
+  margin:25px;
+  width:250px;
+  height:250px;
+  background: black;
+  border: solid black;
+  border-color: black;
+  float:left; 
+}
+
+
+.box3{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
+}
+
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}

@@ -37,9 +37,9 @@ const Navbar = () => {
                   Blogs
                 </a>
                 <ul className="dropdown-menu bg-dark">
-                  <li><a className="dropdown-item text-white linksDrop" href="/">FullStack</a></li>
-                  <li><a className="dropdown-item text-white linksDrop" href="/">Ingeniero Electrónico</a></li>
-                  <li><a className="dropdown-item text-white linksDrop" href="/">Empresa de servicios</a></li>
+                  <li><a className="dropdown-item text-white linksDrop test" href="/">FullStack</a></li>
+                  <li><a className="dropdown-item text-white linksDrop test" href="/">Ingeniero Electrónico</a></li>
+                  <li><a className="dropdown-item text-white linksDrop test" href="/">Empresa de servicios</a></li>
                 </ul>
               </li>
               <li className="nav-item">

@@ -33,3 +33,42 @@
     height: 300px;
   }
 }
+
+.skillImg{
+  border-radius: 100px;
+  margin: 3px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+  user-select: none;
+}
+.skillImg:hover {
+  transform: scale(1.1) rotate(-5deg);
+  transition: all 200ms ease;
+}
+
+.skillext{
+  border: 2px solid rgb(38, 62, 99);
+  border-radius: 100px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 3px;
+  background-color:rgb(38, 62, 99);
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+  user-select: none;
+}
+
+
+.skillext:hover {
+  transform: scale(1.1) rotate(-5deg);
+  transition: all 200ms ease;
+}

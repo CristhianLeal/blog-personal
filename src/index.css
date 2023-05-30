@@ -1,10 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 code {
@@ -23,8 +21,8 @@ code {
   content: '';
   position: absolute;
   width: 100%;
-  height: 4px;
-  border-radius: 4px;
+  height: 2px;
+  border-radius: 2px;
   background-color: #ffffff;
   bottom: 0;
   left: 0;
@@ -37,3 +35,4 @@ code {
   transform-origin: left;
   transform: scaleX(1);
 }
+
