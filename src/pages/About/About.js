@@ -4,9 +4,6 @@ import './about.css'
 const Aboutme = () => {
   return (
     <div className='d-flex flex-column flex-lg-row'>
-      <div className='d-flex align-content-center justify-content-center col-lg-6 col-12'>
-        <img src='https://thumbs.dreamstime.com/b/bonito-hombre-de-negocios-sonriente-con-gafas-gerente-confianza-parado-los-brazos-cruzados-190757851.jpg' alt='About-Me' className='mainimgAbout p-3'/>
-      </div>
       <div className='d-flex flex-column align-content-center justify-content-center col-lg-6 col-12 p-3'>
         <h3>
           Cristhian Leal
@@ -84,6 +81,9 @@ const Aboutme = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='d-flex align-content-center justify-content-center col-lg-6 col-12'>
+        <img src='https://thumbs.dreamstime.com/b/bonito-hombre-de-negocios-sonriente-con-gafas-gerente-confianza-parado-los-brazos-cruzados-190757851.jpg' alt='About-Me' className='mainimgAbout p-3'/>
       </div>
     </div>
   )

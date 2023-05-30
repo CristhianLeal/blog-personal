@@ -34,7 +34,12 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle text-white links" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blogs
+                  <Link to='/mypages'
+                  className="text-white text-decoration-none" 
+                  aria-current="page"
+                  >
+                  My Pages
+                  </Link>
                 </a>
                 <ul className="dropdown-menu bg-dark">
                   <li><a className="dropdown-item text-white linksDrop test" href="/">FullStack</a></li>
