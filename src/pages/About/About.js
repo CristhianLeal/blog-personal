@@ -5,9 +5,10 @@ const Aboutme = () => {
   return (
     <div className='d-flex flex-column flex-lg-row'>
       <div className='d-flex flex-column align-content-center justify-content-center col-lg-6 col-12 p-3'>
-        <h3>
-          Cristhian Leal
-        </h3>
+        <div className='d-flex flex-row'>
+          <h2 className='m-0 px-3 tAbout d-flex align-items-center justify-content-center'>Cristhian Leal</h2>
+          <button type="button" class="btn btn-dark links btndown m-1"><i class="bi bi-download me-2"></i>Resume</button>
+        </div>
         <p>
           Electronic engeenier and Full Stack Developer
         </p>
@@ -83,7 +84,7 @@ const Aboutme = () => {
         </div>
       </div>
       <div className='d-flex align-content-center justify-content-center col-lg-6 col-12'>
-        <img src='https://thumbs.dreamstime.com/b/bonito-hombre-de-negocios-sonriente-con-gafas-gerente-confianza-parado-los-brazos-cruzados-190757851.jpg' alt='About-Me' className='mainimgAbout p-3'/>
+        <img src='https://thumbs.dreamstime.com/b/bonito-hombre-de-negocios-sonriente-con-gafas-gerente-confianza-parado-los-brazos-cruzados-190757851.jpg' alt='About-Me' className='mainimgAbout p-3 d-flex align-content-center justify-content-center'/>
       </div>
     </div>
   )

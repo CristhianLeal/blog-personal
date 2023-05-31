@@ -14,7 +14,7 @@ const Body = () => {
         <h3 className='text-center pb-4 mb-0 fs-1'>Hello! My name is Cristhian Leal</h3>
         <h4 className='text-center pb-4 mb-0 fs-1'> Wellcome to my blog!</h4>
         <div className='mb-4'>
-          <p className='mb-0 px-3 tv'> Hi everybody, my name is Cristhian Leal and this is my dear blog, in this site i will write a lot of things that i hope that you enjoy. Its easy to think that i'm writing with google traslate, but now it's not the reality. In this blog i will try to show you what i'm learn in my freetime about programming. </p>
+          <p className='mb-0 ps-4 pe-1 tv'> Hi everybody, my name is Cristhian Leal and this is my dear blog, in this site i will write a lot of things that i hope that you enjoy. Its easy to think that i'm writing with google traslate, but now it's not the reality. In this blog i will try to show you what i'm learn in my freetime about programming. </p>
         </div>
         <div className='d-flex flex-row justify-content-start gap-2'>
           <a className="btn btn-dark links" href="/">
