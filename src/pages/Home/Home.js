@@ -3,6 +3,9 @@ import './home.css'
 import { Link } from 'react-router-dom'
 
 const Body = () => {
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0)
+  }
   return (
     <div className='d-flex flex-md-row p-4 flex-column '>
 
@@ -21,6 +24,7 @@ const Body = () => {
             <Link to='/mypages'
               className="nav-link active text-white" 
               aria-current="page"
+              onClick={handleLinkClick}
               >
               My Pages
             </Link>
@@ -29,6 +33,7 @@ const Body = () => {
             <Link to='/about'
               className="nav-link active text-white" 
               aria-current="page"
+              onClick={handleLinkClick}
               >
               About Me
             </Link>
@@ -37,6 +42,7 @@ const Body = () => {
             <Link to='/contact'
               className="nav-link active text-white" 
               aria-current="page"
+              onClick={handleLinkClick}
             >
               Contact me
             </Link>
