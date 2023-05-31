@@ -5,5 +5,9 @@
   color: rgb(177, 177, 177)!important;
 }
 .finalText{
-  font-size: x-small;
+  font-size: 8px;
+}
+
+.sizeFoot{
+  font-size: 11px;
 }

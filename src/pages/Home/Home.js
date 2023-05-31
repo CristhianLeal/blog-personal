@@ -42,7 +42,6 @@ const Body = () => {
             </Link>
           </a>
         </div>
-
         <img src='https://mattfarley.ca/img/hero-devices.svg' alt='PerfilImage' className='mainimg pt-3'/>
       </div>
       
