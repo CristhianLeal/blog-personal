@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
             <a  href="/" className='text-white d-flex flex-row links py-1 sizeFoot'>
               <i class="bi bi-envelope-at"></i>
-              <p className='ps-2 mb-0'>cristhianagustoleal@gmail.com</p>             
+              <p className='ps-2 mb-0'>cristhianaugustoleal@gmail.com</p>             
             </a>
             <a  href="https://github.com/CristhianLeal" className='text-white d-flex flex-row links py-1 sizeFoot'>
               <i class="bi bi-github"></i>
