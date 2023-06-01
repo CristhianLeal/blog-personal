@@ -5,9 +5,9 @@ import rcfake from '../../assets/img/rc-fakestore.png'
 
 const Mypages = () => {
   return (
-    <div className='d-flex flex-wrap'>
+    <div className='d-flex flex-wrap justify-content-center align-items-center'>
 
-      <div className="blog-card">
+      <div className="blog-card m-2">
         <div className="meta">
           <img src={menu} alt="menu" className='photo' />
           <ul className="details ">
@@ -25,7 +25,7 @@ const Mypages = () => {
         </div>
       </div>
 
-      <div className="blog-card alt">
+      <div className="blog-card alt m-2">
         <div className="meta">
           <img src={rcfake} alt="rcfake" className='photo' />
           <ul className="details ">
@@ -43,7 +43,7 @@ const Mypages = () => {
         </div>
       </div>
 
-      <div className="blog-card">
+      <div className="blog-card m-2">
         <div className="meta">
           <img src={menu} alt="menu" className='photo' />
           <ul className="details ">
@@ -61,7 +61,7 @@ const Mypages = () => {
         </div>
       </div>
 
-      <div className="blog-card alt">
+      <div className="blog-card alt m-2">
         <div className="meta">
           <img src={rcfake} alt="rcfake" className='photo' />
           <ul className="details ">

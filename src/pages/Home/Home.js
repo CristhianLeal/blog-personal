@@ -8,16 +8,14 @@ const Body = () => {
   }
   return (
     <div className='d-flex flex-md-row p-4 flex-column '>
-
-      <div className='d-flex align-content-center justify-content-center col-md-6 col-12 '>
+      <div className='d-flex align-items-center justify-content-center col-md-6 col-12 '>
         <img src='https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg' alt='PerfilImage' className='mainimg'/>
       </div>
-
       <div className='maintxt col-md-6 col-12 d-flex flex-column justify-content-center align-items-center'>
         <h3 className='text-center pb-4 mb-0 fs-1'>Hello! My name is Cristhian Leal</h3>
-        <h4 className='text-center pb-4 mb-0 fs-1'> Wellcome to my blog!</h4>
+        <h4 className='text-center pb-4 mb-0 fs-1'> Wellcome to my Portfolio!</h4>
         <div className='mb-4'>
-          <p className='mb-0 ps-4 pe-1 tv'> Hi everybody, my name is Cristhian Leal and this is my dear blog, in this site i will write a lot of things that i hope that you enjoy. Its easy to think that i'm writing with google traslate, but now it's not the reality. In this blog i will try to show you what i'm learn in my freetime about programming. </p>
+          <p className='mb-0 ps-4 pe-1 tv'> Hello everyone, on this website i want to show you some of the projects i worked on and some of my work experiences. I am an <strong>Electronic engineer</strong> with experience in continuous improvements and a <strong>Full stack developer</strong>, currently working as a freelance developer. If you have some questions just contact me! Thanks for viewing my portfolio! </p>
         </div>
         <div className='d-flex flex-row justify-content-start gap-2'>
           <a className="btn btn-dark links" href="/">

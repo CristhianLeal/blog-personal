@@ -8,7 +8,7 @@ const Aboutme = () => {
     <div className='d-flex flex-column flex-lg-row'>
       <div className='d-flex flex-column align-content-center justify-content-center col-lg-6 col-12 p-3'>
         <div className='d-flex flex-row'>
-          <h2 className='m-0 px-3 tAbout d-flex align-items-center justify-content-center'>Cristhian Leal</h2>
+          <h2 className='m-0 pe-3 tAbout d-flex align-items-center justify-content-center'>Cristhian Leal</h2>
           <a  href="https://drive.google.com/file/d/1gpNCKcmFnfeFxN71ZsVGCmTvjhaJIvCm/view?usp=sharing" className='btn btn-dark links btndown m-1 d-flex flex-row justify-content-center align-items-center' target='blank'>
             <i class="bi bi-download">
             </i>
@@ -25,9 +25,9 @@ const Aboutme = () => {
         </h4>
         <div>
           <div>
-            <h5 className='pt-2'>
+            <h6 className='pt-2'>
               -Programming languages, style and markup:
-            </h5>
+            </h6>
             <div className='d-flex flex-wrap'>
               <img className='skillImg' src='https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E' alt='JavaScript'/>
               <img className='skillImg' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' alt='Python'/>
@@ -38,9 +38,9 @@ const Aboutme = () => {
             </div>
           </div>
           <div>
-            <h5 className='pt-2'>
+            <h6 className='pt-2'>
               -Tools:
-            </h5>
+            </h6>
             <div className='d-flex flex-wrap'>
               <img className='skillImg' src='https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white' alt='JN'/>
               <img className='skillImg' src='https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white' alt='VSC'/>
@@ -51,9 +51,9 @@ const Aboutme = () => {
             </div>
           </div>
           <div>
-            <h5 className='pt-2'>
+            <h6 className='pt-2'>
               -Libraries, environments and Frameworks:
-            </h5>
+            </h6>
             <div className='d-flex flex-wrap'>
               <img className='skillImg' src='https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' alt='React'/>
               <img className='skillImg' src='https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white' alt='Vite'/>
@@ -68,9 +68,9 @@ const Aboutme = () => {
             </div>
           </div>
           <div>
-            <h5 className='pt-2'>
+            <h6 className='pt-2'>
               -DataBases:
-            </h5>
+            </h6>
             <div className='d-flex flex-wrap'>
               <img className='skillImg' src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white' alt='Mongo'/>
               <img className='skillImg' src='https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white' alt='MSQL'/>
@@ -78,9 +78,9 @@ const Aboutme = () => {
             </div>
           </div>
           <div>
-            <h5 className='pt-2'>
+            <h6 className='pt-2'>
             -Others:
-            </h5>
+            </h6>
             <div className='d-flex flex-wrap'>
               <h7 className='skillext'> Continuous Improvement</h7>
               <h7 className='skillext'>RCA analysis</h7>

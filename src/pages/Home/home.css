@@ -3,19 +3,6 @@
   height: auto;
 }
 
-/* .module-border-wrap {
-  position: relative;
-  background: linear-gradient(to right, rgb(35, 35, 115), rgb(0, 0, 0));
-  padding: 3px;
-  border-radius: 10px;
-}
-
-.module {
-  background: rgb(79,149,208);
-  color: white;
-  border-radius: 10px;
-} */
-
 .tv {
   position: relative;
   background: white;
