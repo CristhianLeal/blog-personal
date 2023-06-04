@@ -1,3 +1,29 @@
 .general{
   min-height: 80vh;
 }
+.imgCont{
+  width: 80%;
+  height: auto;
+}
+
+.cards{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 150px;
+  padding: 10px;
+  max-width: 300px;
+}
+.linkCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.linkCont:hover{
+  color: rgb(110,7,243);
+}
+

@@ -33,8 +33,8 @@ const Navbar = () => {
                   About Me
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <p className="nav-link dropdown-toggle text-white links" href="/mypages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item dropdown m-0">
+                <p className="nav-link dropdown-toggle text-white links m-0" href="/mypages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   My Pages
                 </p>
                 <ul className="dropdown-menu bg-dark">

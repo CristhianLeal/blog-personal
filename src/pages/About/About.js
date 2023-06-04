@@ -1,11 +1,12 @@
 import React from 'react'
 import './about.css'
+import about from '../../assets/img/aboutnew.jpg'
 
 const Aboutme = () => {
 
 
   return (
-    <div className='d-flex flex-column flex-lg-row'>
+    <div className='d-flex flex-column flex-lg-row general'>
       <div className='d-flex flex-column align-content-center justify-content-center col-lg-6 col-12 p-3'>
         <div className='d-flex flex-row'>
           <h2 className='m-0 pe-3 tAbout d-flex align-items-center justify-content-center'>Cristhian Leal</h2>
@@ -92,7 +93,7 @@ const Aboutme = () => {
         </div>
       </div>
       <div className='d-flex align-content-center justify-content-center col-lg-6 col-12'>
-        <img src='https://thumbs.dreamstime.com/b/bonito-hombre-de-negocios-sonriente-con-gafas-gerente-confianza-parado-los-brazos-cruzados-190757851.jpg' alt='About-Me' className='mainimgAbout p-3 d-flex align-items-center justify-content-center'/>
+        <img src={about} alt='About-Me' className='mainimgAbout p-3 d-flex align-items-center justify-content-center'/>
       </div>
     </div>
   )
