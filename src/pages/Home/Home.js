@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import { Link } from 'react-router-dom'
+import home from '../../assets/img/home.png'
 
 const Body = () => {
   const handleLinkClick = () => {
@@ -9,7 +10,7 @@ const Body = () => {
   return (
     <div className='d-flex flex-md-row p-4 flex-column '>
       <div className='d-flex align-items-center justify-content-center col-md-6 col-12 '>
-        <img src='https://img.freepik.com/vector-gratis/hombre-muestra-gesto-gran-idea_10045-637.jpg' alt='PerfilImage' className='mainimg'/>
+        <img src={home} alt='PerfilImage' className='mainimg'/>
       </div>
       <div className='maintxt col-md-6 col-12 d-flex flex-column justify-content-center align-items-center'>
         <h3 className='text-center pb-4 mb-0 fs-1'>Hello! My name is Cristhian Leal</h3>

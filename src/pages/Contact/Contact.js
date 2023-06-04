@@ -1,25 +1,33 @@
 import React from 'react'
 import './contact.css'
+import logo from '../../assets/img/logogral.png'
 
 const Contact = () => {
   return (
-    <div>
-      <a  href="https://wa.me/5493815980535" className='text-dark d-flex flex-row links py-1 size' target='blank'>
-        <i class="bi bi-telephone-fill "></i>
-        <p className='ps-2 mb-0 '>+549 381 5980535</p>             
-      </a>
-      <a  href="https://www.linkedin.com/in/cristhian-augusto-leal-464313167/" target='_blank' rel="noreferrer" className='text-dark d-flex flex-row links py-1 size'>
-        <i class="bi bi-linkedin"></i>
-        <p className='ps-2 mb-0'>Cristhian Leal</p>             
-      </a>
-      <a  href="/" className='text-dark d-flex flex-row links py-1 size'>
-        <i class="bi bi-envelope-at"></i>
-        <p className='ps-2 mb-0'>cristhianaugustoleal@gmail.com</p>             
-      </a>
-      <a  href="https://github.com/CristhianLeal" className='text-dark d-flex flex-row links py-1 size'>
-        <i class="bi bi-github"></i>
-        <p className='ps-2 mb-0'>GitHub</p>             
-      </a>
+    <div className='d-flex flex-column flex-sm-row general'>
+
+      <div className='col-6 p-3'>
+        <img src={logo} alt="Logo" className='w-50' />
+      </div>
+      
+      <div className='col-6 d-flex flex-column p-3'>
+        <div className='d-flex flex-row col-3'>
+          <img src={logo} alt="Logo" className='w-50' />
+          <a href='/'>Enlace</a>
+        </div>
+        <div className='d-flex flex-row col-3'>
+          <img src={logo} alt="Logo" className='w-50' />
+          <a href='/'>Enlace</a>
+        </div>
+        <div className='d-flex flex-row col-3'>
+          <img src={logo} alt="Logo" className='w-50' />
+          <a href='/'>Enlace</a>
+        </div>
+        <div className='d-flex flex-row col-3'>
+          <img src={logo} alt="Logo" className='w-50' />
+          <a href='/'>Enlace</a>
+        </div>
+      </div>
     </div>
   )
 }
